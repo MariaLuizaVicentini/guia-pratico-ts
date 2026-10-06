@@ -17,6 +17,7 @@ Fase 3
 
 -----
 
-Página em que parei: 
+Página em que parei: 18
 
 Contexto:
+2.2 Boolean
