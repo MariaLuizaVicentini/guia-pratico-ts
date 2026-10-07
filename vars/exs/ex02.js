@@ -1,0 +1,3 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+// Crie um programa que armazene o nome do usuário e seu status de administrador, altere o status durante a execução e tente acessar uma informação criada dentro de um bloco fora dele.
