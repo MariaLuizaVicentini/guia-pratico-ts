@@ -1,1 +1,0 @@
-// Crie um programa que armazene o nome de um produto, seu preço e a quantidade comprada, calcule o total e depois altere apenas a quantidade para simular que o cliente adicionou mais uma unidade.

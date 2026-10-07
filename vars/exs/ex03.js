@@ -1,3 +1,0 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-// Crie um contador dentro de um bloco de código, incremente seu valor algumas vezes e depois tente acessar esse contador fora do bloco para observar o comportamento do escopo.
