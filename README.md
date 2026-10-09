@@ -1,8 +1,10 @@
 # Projeto
 
-Referência: 
+Referência Teórica: 
 Livro - Guia prático de TypeScript Melhore suas aplicações JS (Casa do código Alura)
 
+Referência Prática: 
+Link dos exercicios - https://www.cursoemvideo.com/wp-content/uploads/2019/08/exercicios-algoritmos.pdf
 ----
 
 # Compilador verificando todos os arquivos em tempo real
