@@ -22,5 +22,5 @@ function exibirProduto(produto: Produto): void {
   console.log("Quantidade:", produto[2]);
 }
 
-const meuProduto: Produto = ["parafuso", 0.50, 100];
+const meuProduto: Produto = ["parafuso", 0.5, 100];
 exibirProduto(meuProduto);
