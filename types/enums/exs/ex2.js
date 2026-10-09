@@ -1,9 +1,6 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 /*
 Exercício 2: Status de um Pedido
-
-Objetivo: Praticar a criação e utilização de enums do tipo string.
 
 Enunciado:
 - Crie um enum chamado StatusPedido para representar as etapas de um pedido.
@@ -20,3 +17,14 @@ Desafio extra:
 - Altere o statusAtual para StatusPedido.Entregue.
 - Imprima novamente o resultado e observe a diferença.
 */
+Object.defineProperty(exports, "__esModule", { value: true });
+var StatusPedido;
+(function (StatusPedido) {
+    StatusPedido["Pendente"] = "PENDENTE";
+    StatusPedido["Processando"] = "PROCESSANDO";
+    StatusPedido["Enviado"] = "ENVIADO";
+    StatusPedido["Entregue"] = "ENTREGUE";
+})(StatusPedido || (StatusPedido = {}));
+// var statusAtual: StatusPedido = StatusPedido.Processando;
+var statusAtual = StatusPedido.Entregue;
+console.log(statusAtual);
