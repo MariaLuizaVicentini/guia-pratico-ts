@@ -20,8 +20,4 @@ Fase 3
 Página em que parei: 25
 
 Contexto:
-2.9 Enum
-
-- acessar https://github.com/divertimentos/Curso-Python-Gustavo-Guanabara
-- resolver exercicios parecidos em TS de acordo com o contexto correto... 
-- focar nas coisas que eu ja li do livro e criei aqui
+2.10 Union
