@@ -1,9 +1,6 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 /*
 Exercício 3: Identificar o Tipo de Veículo
-
-Objetivo: Praticar Union Types com classes e o operador instanceof.
 
 Enunciado:
 - Crie uma classe chamada Carro com um método chamado ligar(), que imprima "Carro ligado!" no console.
@@ -23,4 +20,25 @@ Requisitos:
 Desafio extra:
 - Explique por que o TypeScript permite chamar ligar() quando o objeto é um Carro
   e empinar() quando o objeto é uma Moto, mesmo que o parâmetro aceite os dois tipos.
-*/ 
+*/
+Object.defineProperty(exports, "__esModule", { value: true });
+class Carro {
+    ligar() {
+        console.log("Carro ligado!");
+    }
+}
+class Moto {
+    empinar() {
+        console.log("Moto empinando!");
+    }
+}
+function testarVeiculo(veiculo) {
+    if (veiculo instanceof Carro) {
+        veiculo.ligar();
+    }
+    if (veiculo instanceof Moto) {
+        veiculo.empinar();
+    }
+}
+testarVeiculo(new Carro);
+testarVeiculo(new Moto);
