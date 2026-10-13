@@ -1,5 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 /*
  * Desafio 3 - Analisador de Dados
     * - Crie uma função que receba um array contendo valores de tipos diferentes.
@@ -9,4 +8,24 @@ Object.defineProperty(exports, "__esModule", { value: true });
     * - Se for um booleano, exiba uma mensagem indicando se seu valor é verdadeiro ou falso.
     * - Para qualquer outro tipo de valor, exiba uma mensagem informando que o tipo não foi identificado.
 
-*/ 
+*/
+Object.defineProperty(exports, "__esModule", { value: true });
+function dataAnalyst(list) {
+    var i;
+    for (i = 0; i < list.length; i++) {
+        if (typeof list[i] === "string") {
+            console.log(list[i]);
+        }
+        else if (typeof list[i] === "number") {
+            var num = list[i] % 2 === 0 ? "par" : "ímpar";
+            console.log(`O número é: ${num}`);
+        }
+        else if (typeof list[i] === "boolean") {
+            console.log(`Booleano = ${list[i]}`);
+        }
+        else {
+            console.log("O tipo não foi identificado!");
+        }
+    }
+}
+dataAnalyst(["uva", 2, false]);
