@@ -1,6 +1,7 @@
 /*
-    verifica se o valor da direita é null ou undefined
-    utiliza os seguintes operadores: ??
+    nullish coalescing
+        verifica se o valor da direita é null ou undefined
+        utiliza os seguintes operadores: ??
 */
 
 let perfil = "admin";

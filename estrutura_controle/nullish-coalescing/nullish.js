@@ -1,7 +1,8 @@
 "use strict";
 /*
-    verifica se o valor da direita é null ou undefined
-    utiliza os seguintes operadores: ??
+    nullish coalescing
+        verifica se o valor da direita é null ou undefined
+        utiliza os seguintes operadores: ??
 */
 Object.defineProperty(exports, "__esModule", { value: true });
 let perfil = "admin";
