@@ -20,4 +20,4 @@ Fase 3
 Página em que parei: 37
 
 Contexto:
-Estruturas de controle e repetição
+3.3 Operador ternário
