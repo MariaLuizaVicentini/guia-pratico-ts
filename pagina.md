@@ -20,4 +20,4 @@ Fase 3
 Página em que parei: 37
 
 Contexto:
-3.3 Operador ternário
+3.5 switch
