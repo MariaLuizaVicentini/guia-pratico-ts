@@ -11,3 +11,28 @@
  * - Para "livros", exiba "Materiais de leitura".
  * - Caso a categoria não exista, exiba uma mensagem informando que ela é inválida.
  */
+
+type Categorias = "eletrônicos" | "vestuário" | "alimentos" | "livros";
+
+function exibeCatalago(categoria: Categorias) {
+  switch (categoria) {
+    case "eletrônicos":
+      console.log("Produtos tecnológicos");
+      break;
+    case "alimentos":
+      console.log("Produtos para consumo");
+      break;
+    case "livros":
+      console.log("Materiais de leitura");
+      break;
+    case "vestuário":
+      console.log("Roupas e acessórios");
+      break;
+    default:
+      console.log("Categoria inválida!");
+      break;
+  }
+}
+
+
+exibeCatalago("eletrônicos");

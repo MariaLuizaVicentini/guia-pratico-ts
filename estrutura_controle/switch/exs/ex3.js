@@ -1,5 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 /**
  * Desafio 3 - Sistema de Categorias de Produtos
  *
@@ -12,4 +11,25 @@ Object.defineProperty(exports, "__esModule", { value: true });
  * - Para "alimentos", exiba "Produtos para consumo".
  * - Para "livros", exiba "Materiais de leitura".
  * - Caso a categoria não exista, exiba uma mensagem informando que ela é inválida.
- */ 
+ */
+Object.defineProperty(exports, "__esModule", { value: true });
+function exibeCatalago(categoria) {
+    switch (categoria) {
+        case "eletrônicos":
+            console.log("Produtos tecnológicos");
+            break;
+        case "alimentos":
+            console.log("Produtos para consumo");
+            break;
+        case "livros":
+            console.log("Materiais de leitura");
+            break;
+        case "vestuário":
+            console.log("Roupas e acessórios");
+            break;
+        default:
+            console.log("Categoria inválida!");
+            break;
+    }
+}
+exibeCatalago("eletrônicos");
