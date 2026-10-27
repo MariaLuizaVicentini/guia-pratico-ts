@@ -1,0 +1,26 @@
+{
+  "name": "guia-pratico-ts",
+  "version": "1.0.0",
+  "description": "Referência Teórica:  Livro - Guia prático de TypeScript Melhore suas aplicações JS (Casa do código Alura)",
+  "main": "languages.js",
+  "scripts": {
+    "watch": "tsc -w",
+    "build": "tsc",
+    "dev": "tsx watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariaLuizaVicentini/guia-pratico-ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariaLuizaVicentini/guia-pratico-ts/issues"
+  },
+  "homepage": "https://github.com/MariaLuizaVicentini/guia-pratico-ts#readme",
+  "devDependencies": {
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
