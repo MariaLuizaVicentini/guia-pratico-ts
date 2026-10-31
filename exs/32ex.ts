@@ -18,9 +18,6 @@ ser trocados por dinheiro. O sistema funciona assim:
 
 let horas: number = 30;
 
-
-const 
-
 if (horas < 10) {
   const pontos = horas * 2;
   const reais = pontos * 0.05;
