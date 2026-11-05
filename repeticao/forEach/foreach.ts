@@ -1,9 +1,14 @@
-/*
-    ForEach - Estrutura de repetição
-        - É uma simplificação do ' for '
-        - Também trabalha com coleções de dados ( listas, tuplas)
-        - Permite acessar cada elemento individualmente iterando sobre toda a coleção
-*/
+/**
+ * ForEach - Iteração de elementos
+    • O que faz: 
+        Apenas executa uma ação para cada item. É como um loop for tradicional.
+    
+    • Retorno: 
+        Sempre undefined.
+    
+    • Quando usar: 
+        Quando você quer apenas gerar um "efeito colateral" (side-effect), como salvar dados no banco, exibir mensagens na tela ou salvar logs.
+ */
 
 var languages: Array<string> = ["Python", "JS", "TS", "Php"];
 
@@ -11,11 +16,12 @@ languages.forEach((l) => {
   console.log(l);
 });
 
-
-
-// Sintaxe - ForEach (para cada):
-/*
-        colecao.forEach(
-            (elemento) => {// codigo a ser executado para cada elemento}
-        );
-*/ 
+/**
+ * Sintaxe - ForEach (para cada):
+ *
+ * coleção.forEach(
+ *   (elemento, indice, arrayOriginal) => {
+ *     // código executado para cada elemento
+ *   }
+ * );
+ */
